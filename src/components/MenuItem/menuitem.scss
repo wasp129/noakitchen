@@ -1,0 +1,36 @@
+.menuitem {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    min-height: 7rem;
+
+    margin: 0 auto;
+
+    background-color: #4444ee;
+
+    border: 1px #d3d3d3 solid;
+
+    .emoji {
+        min-width: 150px;
+        font-size: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &--right {
+        padding: 1.5rem;
+        text-align: left;
+
+        .weekday {
+            font-size: 1rem;
+        }
+
+        .description {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+
+}

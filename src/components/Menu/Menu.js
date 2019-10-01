@@ -11,7 +11,7 @@ export default function Menu (props) {
         <div className="menuwrapper">
             <ul>
                 {weekdays.map(i => (
-                    <li>
+                    <li key={i}>
                     <MenuItem description="Tom Yum" weekday={i}></MenuItem>
                     </li>
                     ))}
