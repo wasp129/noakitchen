@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.scss';
 import Menu from './Menu/Menu';
 import Nav from './Nav/Nav';
@@ -26,19 +26,19 @@ function App() {
       let color = i.gsx$color.$t;
       console.log(`${week}, ${emoji}, ${day}, ${description}, ${color}`);
       });
-
     }
 
-  getContent();
-
-  // fetch(url);
-  // async await fetch?
-
+    useEffect(() => {
+      // https://reactjs.org/docs/hooks-effect.html
+      // use to make componentdidmount
+    })
+  let menu = getContent();
+  console.log(menu)
 
   return ( 
     <div className="appwrapper">
     {/* <Nav></Nav> */}
-    <Menu ></Menu>
+    <Menu props={menu}></Menu>
     </div>
   );
 }
