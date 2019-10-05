@@ -6,16 +6,6 @@ import Menu from './Menu/Menu';
 
 
 function App() {
-  //   thisWeek.map(i => {
-  //     let week = i.gsx$week.$t;
-  //     let emoji = i.gsx$emoji.$t;
-  //     let day = i.gsx$day.$t;
-  //     let description = i.gsx$description.$t;
-  //     let color = i.gsx$color.$t;
-  //     // console.log(`${week}, ${emoji}, ${day}, ${description}, ${color}`);
-  //     });
-  //   }
-
   return ( 
     <div className="appwrapper">
     {/* <Nav></Nav> */}

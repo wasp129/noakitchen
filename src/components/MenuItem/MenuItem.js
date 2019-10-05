@@ -1,11 +1,14 @@
 import React from 'react';
 import "./menuitem.scss";
 
-export default function MenuItem (
+export default function MenuItem ({
     emoji = "🍔",
     weekday ="Monday",
-    description = "yumm"
-) {
+    description = "yumm",
+    ...props
+}) {
+
+
     
     return(
         <div className="menuitem">

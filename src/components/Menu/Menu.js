@@ -17,7 +17,14 @@ export default function Menu (props) {
           let dayArray = await response.data.feed.entry.filter(function(day) {
             return day.gsx$week.$t === "thisweek"
           });
-          setData(dayArray);
+          let thisWeek = await dayArray.map(day => ({
+            week: day.gsx$week.$t,
+            emoji: day.gsx$emoji.$t,
+            day: day.gsx$day.$t,
+            description: day.gsx$description.$t,
+            color: day.gsx$color.$t
+          }))
+          setData(thisWeek);
         }
     
         fetchData();
@@ -28,10 +35,17 @@ export default function Menu (props) {
         <>
         <div className="menuwrapper">
             <ul>
+
                 {console.log(data)}
                 {data.map(i => 
-                    (<li key={i.gsx$day.$t}>
-                        {/* <MenuItem description={i.gsx$description.$t} /> */}
+                    (<li key={i.day}>
+                        <MenuItem 
+                        description={i.description}
+                        week={i.week}
+                        emoji={i.emoji}
+                        weekday={i.day}
+                        color={i.color}
+                         />
                     </li>)
 
                     )}
