@@ -2,16 +2,22 @@ import React from 'react';
 import "./menuitem.scss";
 
 export default function MenuItem ({
-    emoji = "🍔",
-    weekday ="Monday",
+    color= "4444ee",
     description = "yumm",
+    emoji = "🍔",
+    week = "thisweek",
+    weekday ="Monday",
     ...props
 }) {
+
+    const itemStyle = {
+        backgroundColor: `#${color}`
+    }
 
 
     
     return(
-        <div className="menuitem">
+        <div className="menuitem" style={itemStyle}>
             <div className="emoji"><span>{emoji}</span></div>
             <div className="menuitem--right">
                 <div className="weekday"><p>{weekday}</p></div>

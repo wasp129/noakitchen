@@ -40,11 +40,11 @@ export default function Menu (props) {
                 {data.map(i => 
                     (<li key={i.day}>
                         <MenuItem 
-                        description={i.description}
-                        week={i.week}
-                        emoji={i.emoji}
-                        weekday={i.day}
                         color={i.color}
+                        description={i.description}
+                        emoji={i.emoji}
+                        week={i.week}
+                        weekday={i.day}
                          />
                     </li>)
 
