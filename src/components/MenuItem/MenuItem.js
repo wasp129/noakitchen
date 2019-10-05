@@ -17,14 +17,17 @@ export default function MenuItem ({
 
     
     return(
-        <div className="menuitem" style={itemStyle}>
-            <div className="emoji"><span>{emoji}</span></div>
-            <div className="menuitem--right">
-                <div className="weekday"><p>{weekday}</p></div>
-                <div className="description">
-                    <p>{description}</p>
+        <div class="menuitem-wrapper">
+            <div className="menuitem" style={itemStyle}>
+                <div className="emoji"><span>{emoji}</span></div>
+                <div className="menuitem--right">
+                    <div className="weekday"><p>{weekday}</p></div>
+                    <div className="description">
+                        <p>{description}</p>
+                    </div>
                 </div>
-            </div>
+                </div>
         </div>
+        
     ) 
 }

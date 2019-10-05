@@ -1,4 +1,7 @@
 .menuwrapper {
+  display: flex;
+  flex-direction: column;
+  
     ul {
         list-style-type: none;
         margin: 0;
