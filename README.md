@@ -11,3 +11,7 @@ Hot reload is supported
 ## Master sheet here
 https://docs.google.com/spreadsheets/d/1DkFyeKVHJ4il9Z_MxT9deFf_D1uqDiNKjopiTLqnhd8/edit
 #googlesheetasabackend #spreadsheetsarethebestCMS
+
+-[ ] marquee animation
+-[] background color
+-[] scroll to next week
