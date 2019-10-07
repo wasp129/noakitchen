@@ -9,6 +9,9 @@ let url="https://spreadsheets.google.com/feeds/list/1DkFyeKVHJ4il9Z_MxT9deFf_D1u
 export default function Menu (props) {
     const weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
     const [data, setData] = useState([]);
+
+    //get today's day
+    let today = new Date(Date.now()).toLocaleDateString("en-us", { weekday: "long"});
     
     useEffect(() => {
 
@@ -22,7 +25,6 @@ export default function Menu (props) {
             emoji: day.gsx$emoji.$t,
             day: day.gsx$day.$t,
             description: day.gsx$description.$t,
-            color: day.gsx$color.$t
           }))
           setData(thisWeek);
         }
@@ -40,11 +42,11 @@ export default function Menu (props) {
                 {data.map(i => 
                     (<li key={i.day}>
                         <MenuItem 
-                        color={i.color}
                         description={i.description}
                         emoji={i.emoji}
                         week={i.week}
                         weekday={i.day}
+                        today={today}
                          />
                     </li>)
 
