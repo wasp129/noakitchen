@@ -13,7 +13,8 @@ https://docs.google.com/spreadsheets/d/1DkFyeKVHJ4il9Z_MxT9deFf_D1uqDiNKjopiTLqn
 #googlesheetasabackend #spreadsheetsarethebestCMS
 
 - [ ] marquee animation
-- [ ] background color #efdbc4
-- [ ] scroll to next week
+- [X] background color #efdbc4
+- [X] scroll to next week
 - [ ] thisweek/nextweek sticky scroll like Apple Contacts
 - [ ] change font to AftenScreen
+- [ ] fish easteregg (caviar?)
