@@ -12,9 +12,12 @@ Hot reload is supported
 https://docs.google.com/spreadsheets/d/1DkFyeKVHJ4il9Z_MxT9deFf_D1uqDiNKjopiTLqnhd8/edit
 #googlesheetasabackend #spreadsheetsarethebestCMS
 
+# TODO.MD
+
 - [ ] marquee animation
 - [X] background color #efdbc4
 - [X] scroll to next week
 - [ ] thisweek/nextweek sticky scroll like Apple Contacts
 - [ ] change font to AftenScreen
+- [ ] change favico and apple bookmark icon to new ones
 - [ ] fish easteregg (caviar?)
