@@ -8,8 +8,11 @@ import Menu from './Menu/Menu';
 function App() {
   return ( 
     <div className="appwrapper">
-      <Marquee></Marquee>
-      <Menu></Menu>
+      <Marquee text="THIS WEEK"></Marquee>
+      <Menu week="thisweek"></Menu>
+      <Marquee text="NEXT WEEK"></Marquee>
+      <Menu week="nextweek"></Menu>
+
     </div>
   );
 }

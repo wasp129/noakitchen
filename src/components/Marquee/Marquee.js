@@ -3,11 +3,16 @@ import "./marquee.scss";
 import React from "react";
 
 
-export default function Marquee ({props}) {
+export default function Marquee ({
+    text
+}) {
 
     return (
         <div className="marquee">
-            <p>THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK</p>
+                <span>{text}</span>
+                <span>{text}</span>
+                <span>{text}</span>
+                <span>{text}</span>
         </div>
     )
 }

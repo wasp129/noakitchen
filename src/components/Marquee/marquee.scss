@@ -1,17 +1,21 @@
 .marquee {
-    display: block;
+    display: flex;
     height: 40px;
 
-    position: absolute;
+    position: relative;
+    
     overflow: hidden;
     width: 200%;
 
+    background-color: #000000;
+    color: #ffffff;
 
-    animation: marquee 5s linear infinite;
+    // animation: marquee 5s linear infinite;
 
-    &> p {
+    &> span {
+        font-size: 30px;
         float: left;
-        width: 50%;
+        width: 25%;
     }
 }
 
