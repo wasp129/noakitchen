@@ -12,6 +12,8 @@ Hot reload is supported
 https://docs.google.com/spreadsheets/d/1DkFyeKVHJ4il9Z_MxT9deFf_D1uqDiNKjopiTLqnhd8/edit
 #googlesheetasabackend #spreadsheetsarethebestCMS
 
--[ ] marquee animation
--[] background color
--[] scroll to next week
+- [ ] marquee animation
+- [ ] background color #efdbc4
+- [ ] scroll to next week
+- [ ] thisweek/nextweek sticky scroll like Apple Contacts
+- [ ] change font to AftenScreen
