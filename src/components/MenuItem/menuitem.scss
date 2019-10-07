@@ -15,9 +15,13 @@
 
     margin: 0 auto;
 
-    background-color: #4444ee;
+    background-color: #ffffff;
 
     border: 1px #d3d3d3 solid;
+
+    &--active {
+        background-color: #efdbc4;
+    }
 
     .emoji {
         min-width: 150px;
