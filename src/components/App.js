@@ -1,15 +1,15 @@
 import React from "react";
-import axios from "axios";
 import './App.scss';
+
+import Marquee from './Marquee/Marquee';
 import Menu from './Menu/Menu';
-// import Nav from './Nav/Nav';
 
 
 function App() {
   return ( 
     <div className="appwrapper">
-    {/* <Nav></Nav> */}
-    <Menu></Menu>
+      <Marquee></Marquee>
+      <Menu></Menu>
     </div>
   );
 }
