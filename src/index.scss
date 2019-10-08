@@ -1,17 +1,33 @@
 body {
   height: 100%;
   margin: 0;
-  font-family: 'Muli', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+@font-face {
+  font-family: "Aften Screen";
+  src: url("./fonts/AftenScreen-Regular.ttf") format("truetype"),
+      url("./fonts/AftenScreen-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: "Aften Screen Bold";
+  src: url("./fonts/AftenScreen-Bold.ttf") format("truetype"),
+      url("./fonts/AftenScreen-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 
 p {
   margin-block-start: 0;
   margin-block-end: 0;
+
+  font-family: "Aften Screen";
+}
+
+span {
+  font-family: "Aften Screen Bold";
 }
