@@ -1,25 +1,25 @@
 .marquee {
-    display: flex;
-    height: 40px;
-
     position: relative;
-    
-    overflow: hidden;
-    width: 200%;
+    width: 100vw;
+    max-width: 100%;
+    height: 50px;
+    overflow-x: hidden;
 
     background-color: #000000;
     color: #ffffff;
 
     // animation: marquee 5s linear infinite;
+}
 
-    &> span {
-        font-size: 30px;
-        float: left;
-        width: 25%;
-    }
+.track {
+    font-size: 30px;
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 10s linear infinite;
 }
 
 @keyframes marquee {
-    0% { left: 0; }
-    100% { left: -100%; }
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
 }

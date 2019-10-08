@@ -9,10 +9,10 @@ export default function Marquee ({
 
     return (
         <div className="marquee">
-                <span>{text}</span>
-                <span>{text}</span>
-                <span>{text}</span>
-                <span>{text}</span>
+            <div class="track">
+                {/* <span>{text} {text} {text} {text}</span> */}
+                <span>THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK</span>
+            </div>
         </div>
     )
 }
