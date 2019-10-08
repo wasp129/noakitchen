@@ -7,7 +7,6 @@ import MenuItem from "../MenuItem/MenuItem";
 let url="https://spreadsheets.google.com/feeds/list/1DkFyeKVHJ4il9Z_MxT9deFf_D1uqDiNKjopiTLqnhd8/od6/public/values?alt=json";
 
 export default function Menu (props) {
-    const weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
     const [data, setData] = useState([]);
 
     //get today's day

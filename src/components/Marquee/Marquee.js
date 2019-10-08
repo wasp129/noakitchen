@@ -10,7 +10,7 @@ export default function Marquee ({
     return (
         <div className="marquee">
             <div class="track">
-                <span>{text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text}</span>
+                <span>{text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text} {text}</span>
                 {/* <span>THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK THIS WEEK</span> */}
             </div>
         </div>
