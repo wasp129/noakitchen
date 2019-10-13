@@ -11,20 +11,20 @@
     flex: 1;
 
     width: 100%;
-    min-height: 7rem;
+    min-height: 8rem;
 
     margin: 0 auto;
 
     background-color: #ffffff;
 
-    border: 1px #d3d3d3 solid;
+    border-bottom: 1px #F2F2F2 solid;
 
     &--active {
         background-color: #efdbc4;
     }
 
     .emoji {
-        min-width: 150px;
+        min-width: 130px;
         font-size: 4rem;
         display: flex;
         align-items: center;
@@ -32,10 +32,16 @@
     }
 
     &--right {
-        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        padding: 1rem;
         text-align: left;
+        
 
         .weekday {
+            margin-bottom: 5px;
             font-size: 16px;
         }
 
