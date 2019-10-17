@@ -18,10 +18,10 @@ https://docs.google.com/spreadsheets/d/1DkFyeKVHJ4il9Z_MxT9deFf_D1uqDiNKjopiTLqn
 
 - [X] Marquee glitcher indimellem
 - [X] Sticky marquee on scroll
-- [ ] Apple’sk scroll effekt på marquee
-- [ X Menu tekst fylder pt. 50% horisontalt på mobil. Det skal nærmere være 66%.
+- [ ] Apple’sk scroll effekt på marquee på next week
+- [X] Menu tekst fylder pt. 50% horisontalt på mobil. Det skal nærmere være 66%.
 - [X] Mere afstand mellem dag og menu
-- [ ] Korrekt app-ikon
+- [X] Korrekt app-ikon
 - [X] Spacer mellem menu items skal kun være 1 pixel #F2F2F2
 - [X] Mere luft i top og bund af menu item
 
