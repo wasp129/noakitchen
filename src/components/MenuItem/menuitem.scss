@@ -29,6 +29,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        span {
+            padding-top: 10px;
+        }
+        
     }
 
     &--right {
@@ -36,17 +41,19 @@
         flex-direction: column;
         justify-content: center;
         
-        padding: 1rem 1rem 1rem 0;
+        padding: 1.5rem 1rem 1.5rem 0;
         text-align: left;
         
 
         .weekday {
-            margin-bottom: 5px;
             font-size: 16px;
+            opacity: 0.8;
         }
 
         .description {
+            margin-top: 8px;
             font-size: 28px;
+            line-height: 30px;
 
             p {
                 font-family: "Aften Screen Bold";
