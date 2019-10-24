@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import css from "classnames";
+
 
 import "./menu.scss";
 import MenuItem from "../MenuItem/MenuItem";
 
 let url="https://spreadsheets.google.com/feeds/list/1DkFyeKVHJ4il9Z_MxT9deFf_D1uqDiNKjopiTLqnhd8/od6/public/values?alt=json";
 
-export default function Menu (props) {
+export default function Menu ({week = "thisweek"}) {
+    let nextweek = week === "nextweek";
     const [data, setData] = useState([]);
 
     //get today's day
@@ -34,7 +37,7 @@ export default function Menu (props) {
 
     return (
         <>
-        <div className="menuwrapper">
+        <div className={css("menuwrapper", {nextweek})}>
             <ul>
 
                 {console.log(data)}

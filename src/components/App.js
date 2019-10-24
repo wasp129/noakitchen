@@ -11,8 +11,8 @@ function App() {
     <div className="appwrapper">
       <Marquee text="This Week"></Marquee>
       <Menu week="thisweek"></Menu>
-      {/* <Marquee text="Next Week"></Marquee>
-      <Menu week="nextweek"></Menu> */}
+      <Marquee text="Next Week"></Marquee>
+      <Menu week="nextweek"></Menu>
 
     </div>
   );
