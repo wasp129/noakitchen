@@ -20,7 +20,7 @@ export default function Menu ({week = "thisweek"}) {
         async function fetchData(){
           let response = await axios(url);
           let dayArray = await response.data.feed.entry.filter(function(day) {
-            return day.gsx$week.$t === "thisweek"
+            return day.gsx$week.$t === week
           });
           let thisWeek = await dayArray.map(day => ({
             week: day.gsx$week.$t,
