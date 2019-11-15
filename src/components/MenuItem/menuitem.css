@@ -1,0 +1,51 @@
+.menuitem-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-content: center;
+}
+
+.menuitem {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+  min-height: 8rem;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-bottom: 1px #F2F2F2 solid;
+}
+.menuitem--active {
+  background-color: #efdbc4;
+}
+.menuitem .emoji {
+  min-width: 130px;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuitem .emoji span {
+  padding-top: 10px;
+}
+.menuitem--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem 1rem 1.5rem 0;
+  text-align: left;
+}
+.menuitem--right .weekday {
+  font-size: 16px;
+  opacity: 0.6;
+}
+.menuitem--right .description {
+  margin-top: 10px;
+  font-size: 28px;
+  line-height: 30px;
+}
+.menuitem--right .description p {
+  font-family: "Aften Screen Bold";
+}
+
+/*# sourceMappingURL=menuitem.css.map */

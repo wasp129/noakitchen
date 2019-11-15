@@ -1,0 +1,12 @@
+.menuwrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 72px;
+}
+.menuwrapper ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=menu.css.map */
